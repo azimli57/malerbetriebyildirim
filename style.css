@@ -5,13 +5,13 @@ body {
   background-color: #f4f4f4;
 }
 header {
-  background-color: #1d3557; /* Logo-Blau */
+  background-color: #1d3557;
   color: white;
   padding: 20px;
   text-align: center;
 }
 nav a {
-  color: #f1c40f; /* Gelb */
+  color: #f1c40f;
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
@@ -20,11 +20,21 @@ nav a:hover {
   color: #ffffff;
   text-decoration: underline;
 }
-main {
+main.main-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
   background-color: white;
-  min-height: 60vh;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-height: 300px;
+}
+.text-block {
+  flex: 1;
+  max-width: 65%;
+}
+.logo-side img {
+  height: 120px;
+  margin-left: 20px;
 }
 footer {
   background-color: #1d3557;
@@ -33,47 +43,5 @@ footer {
   padding: 10px;
 }
 h2 {
-  color: #c0392b; /* Weinrot */
-}
-ul {
-  list-style-type: square;
-  padding-left: 20px;
-}
-
-.header-flex {
-  display: flex;
-  align-items: center;
-  background-color: #1d3557;
-  padding: 0;
-}
-.logo-container img {
-  height: 100px;
-  margin: 0;
-}
-.logo-container {
-  padding: 10px;
-  background-color: #1d3557;
-}
-.nav-container {
-  flex-grow: 1;
-  padding: 10px;
-  color: white;
-}
-.nav-container h1 {
-  margin: 0;
-}
-
-.header-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #1d3557;
-  padding: 0 20px;
-}
-.logo-container {
-  background-color: #1d3557;
-}
-.logo-container img {
-  height: 113px; /* 3cm ≈ 113px (bei 96dpi) */
-  width: 113px;
+  color: #c0392b;
 }
