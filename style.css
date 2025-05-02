@@ -5,26 +5,35 @@ body {
   background-color: #f4f4f4;
 }
 header {
-  background-color: #333;
+  background-color: #2c3e50; /* Dunkelblau */
   color: white;
   padding: 20px;
   text-align: center;
 }
 nav a {
-  color: white;
+  color: #f1c40f; /* Gelb */
   margin: 0 15px;
   text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 main {
   padding: 20px;
   background-color: white;
   min-height: 60vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 footer {
-  background-color: #333;
+  background-color: #2c3e50;
   color: white;
   text-align: center;
   padding: 10px;
+}
+h2 {
+  color: #c0392b; /* Weinrot */
 }
 ul {
   list-style-type: square;
