@@ -28,11 +28,9 @@ nav a:hover {
   text-decoration: underline;
 }
 main {
-  padding: 20px;
+  padding: 20px 20px 20px 50px; /* nur links deutlich mehr Abstand */
   background-color: white;
   min-height: 60vh;
-  max-width: 900px;
-  margin: 0 auto;
 }
 footer {
   background-color: #1d3557;
