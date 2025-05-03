@@ -28,7 +28,7 @@ nav a:hover {
   text-decoration: underline;
 }
 main {
-  padding: 20px 20px 20px 50px; /* nur links deutlich mehr Abstand */
+  padding: 20px 20px 20px 50px; /* Abstand nach links erhöht */
   background-color: white;
   min-height: 60vh;
 }
