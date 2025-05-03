@@ -2,20 +2,13 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+  background-color: #f4f4f4;
 }
 header {
   background-color: #1d3557;
   color: white;
   padding: 20px;
   text-align: center;
-  position: relative;
-}
-.logo {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  height: 80px;
 }
 nav a {
   color: #f1c40f;
@@ -27,10 +20,21 @@ nav a:hover {
   color: #ffffff;
   text-decoration: underline;
 }
-main {
-  padding: 20px 20px 20px 50px; /* Abstand nach links erhöht */
+main.main-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
   background-color: white;
-  min-height: 60vh;
+  min-height: 300px;
+}
+.text-block {
+  flex: 1;
+  max-width: 65%;
+}
+.logo-side img {
+  height: 120px;
+  margin-left: 20px;
 }
 footer {
   background-color: #1d3557;
@@ -40,20 +44,4 @@ footer {
 }
 h2 {
   color: #c0392b;
-}
-@media (max-width: 768px) {
-  main.main-flex {
-    flex-direction: column;
-    text-align: center;
-  }
-  .text-block, .logo-side {
-    max-width: 100%;
-  }
-  .logo-side img {
-    margin: 20px auto;
-	height: 40px
-  }
-  main {
-    padding: 20px 15px;
-  }
 }
