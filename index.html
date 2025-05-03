@@ -1,35 +1,95 @@
 <!DOCTYPE html>
+
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Malerbetrieb Yildirim – Herne</title>
-  <meta name="description" content="Ihr professioneller Malerbetrieb in Herne. Wir bieten Malerarbeiten, Fassadenanstriche, Tapezieren, Wärmedämmung und mehr.">
-  <meta name="keywords" content="Malerbetrieb Herne, Maler Yildirim, Fassaden, Tapezieren, Herne, Malerarbeiten">
-  <meta name="robots" content="index, follow">
-  <link rel="stylesheet" href="style.css">
-</head>
+<meta charset="utf-8"/>
+<title>Malerbetrieb Yildirim – Herne</title>
+<meta content="Ihr professioneller Malerbetrieb in Herne. Wir bieten Malerarbeiten, Fassadenanstriche, Tapezieren, Wärmedämmung und mehr." name="description"/>
+<meta content="Malerbetrieb Herne, Maler Yildirim, Fassaden, Tapezieren, Herne, Malerarbeiten" name="keywords"/>
+<meta content="index, follow" name="robots"/>
+
+<style>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+header {
+  background-color: #1d3557;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  height: 80px;
+}
+nav a {
+  color: #f1c40f;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+main {
+  padding: 20px 20px 20px 50px; /* Abstand nach links erhöht */
+  background-color: white;
+  min-height: 60vh;
+}
+footer {
+  background-color: #1d3557;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+h2 {
+  color: #c0392b;
+}
+@media (max-width: 768px) {
+  main.main-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+  .text-block, .logo-side {
+    max-width: 100%;
+  }
+  .logo-side img {
+    margin: 20px auto;
+  }
+  main {
+    padding: 20px 15px;
+  }
+}
+
+.logo-side img { height: 40px; margin: 20px auto; display: block; }</style></head>
 <body>
-  <header>
-    <h1>Malerbetrieb Yildirim</h1>
-    <nav>
-      <a href="index.html">Start</a>
-      <a href="leistungen.html">Leistungen</a>
-      <a href="kontakt.html">Kontakt</a>
-      <a href="impressum.html">Impressum</a>
-    </nav>
-  </header>
-  <main class="main-flex">
-    <div class="text-block">
-      <h2>Willkommen beim Malerbetrieb Yildirim</h2>
-      <p>Ihr zuverlässiger Partner für hochwertige Maler- und Fassadenarbeiten in Herne und Umgebung.</p>
-      <p>Mit Erfahrung, Präzision und Leidenschaft bringen wir Farbe in Ihr Zuhause.</p>
-    </div>
-    <div class="logo-side">
-      <img src="rolle_logo.png">
-    </div>
-  </main>
-  <footer>
-    <p>&copy; 2025 Malerbetrieb Yildirim</p>
-  </footer>
+<header>
+<h1>Malerbetrieb Yildirim</h1>
+<nav>
+<a href="index.html">Start</a>
+<a href="leistungen.html">Leistungen</a>
+<a href="kontakt.html">Kontakt</a>
+<a href="impressum.html">Impressum</a>
+</nav>
+</header>
+<main class="main-flex">
+<div class="text-block">
+<h2>Willkommen beim Malerbetrieb Yildirim</h2>
+<p>Ihr zuverlässiger Partner für hochwertige Maler- und Fassadenarbeiten in Herne und Umgebung.</p>
+<p>Mit Erfahrung, Präzision und Leidenschaft bringen wir Farbe in Ihr Zuhause.</p>
+</div>
+<div class="logo-side">
+<img src="rolle_logo.png"/>
+</div>
+</main>
+<footer>
+<p>© 2025 Malerbetrieb Yildirim</p>
+</footer>
 </body>
 </html>
